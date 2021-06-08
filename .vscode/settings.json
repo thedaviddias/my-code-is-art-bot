@@ -1,0 +1,28 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#063337",
+    "titleBar.activeBackground": "#08474E",
+    "titleBar.activeForeground": "#F0FCFD"
+  },
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.validate.enable": true,
+  "prettier.prettierPath": "node_modules/prettier",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "eslint.packageManager": "npm",
+  "eslint.lintTask.enable": true,
+  "eslint.nodePath": "node_modules",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
